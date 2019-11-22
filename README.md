@@ -25,8 +25,8 @@ Contains code and standards for the insertion of CloudCoins into PNG.
 
 ### Overview of implementation.
 
-    The current implementation is a console app built in VS-Code, to be upgraded to a multi-platform application.
-    it serves as a proof of concept for storing CloudCoins in the meta tags of PNG files.
+    The current implementation is a console app built-in VS-Code, to be upgraded to a multi-platform application.
+It serves as a proof of concept for storing CloudCoins in the meta tags of PNG file
 
 
 #### Add new png
@@ -59,7 +59,7 @@ use the path to build the PngClass.
 
 #### Select your CloudCoins.
 
-Allows the user to stage CloudCoins in the ImageClass.
+Allows the user to stage CloudCoins in the Image class.
 ```         //Program.cs
             png.stageCoins();
 
